@@ -21,7 +21,7 @@ public class Rocket : MonoBehaviour {
     {
         if (Input.GetKey(KeyCode.Space)) //can thrust while rotating
         {
-            
+            rigidBody.AddRelativeForce(Vector3.up);
         }
 
         if (Input.GetKey(KeyCode.A))
