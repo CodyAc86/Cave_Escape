@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Friendly
   - Fuel
+  - Enemy
+  - NextLevel
+  - MainMenu
   layers:
   - Default
   - TransparentFX
