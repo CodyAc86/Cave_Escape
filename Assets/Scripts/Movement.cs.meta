@@ -3,7 +3,16 @@ guid: 6e93fca23f0f88849af1534c081c5b38
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mainEngine: {fileID: 8300000, guid: 7f0cd14d3d2fbde4bb674b5a0bb83922, type: 3}
+  - thrusterSound: {instanceID: 0}
+  - mainEngineParticles: {fileID: 8014200709657757152, guid: 725d6399fe907cd44a59e7169572e961,
+      type: 3}
+  - leftThrusterParticles: {fileID: 8014200709657757152, guid: 07b10af325c61bb44be234c75e5134dd,
+      type: 3}
+  - rightThrusterParticles: {fileID: 8014200709657757152, guid: 0e6e95fe033e67545846d851e925a350,
+      type: 3}
+  - fuelBar: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
