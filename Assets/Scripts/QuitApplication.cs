@@ -11,7 +11,11 @@ public class QuitApplication : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("we pushed Escape");
-            Application.Quit();
+            QuitGame();
         }
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
